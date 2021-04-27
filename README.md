@@ -33,4 +33,5 @@ The website is expected to function as follows:
 
 
 ## Licence
-MIT Licence. Copyright (c) 2021 > Martin Mylles Earnest Mucheru and David Ndungu
+MIT Licence. Copyright (c) 2021 
+> Martin Mylles Earnest Mucheru and David Ndungu
