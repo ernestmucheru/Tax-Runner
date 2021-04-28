@@ -77,6 +77,7 @@
 
                     <!--Phone Number Input-->
                     <form>
+                      
                         <div class="input-group mb-3 input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Phone Number</span>
@@ -88,12 +89,18 @@
 
                     <!--KRA pin number input-->
                     <form>
+                      <form id="myForm" action="#" onsubmit="GetDat()">
                         <div class="input-group mb-3 input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">KRA Pin</span>
                         </div>
                         <input type="text" class="form-control" placeholder="P051234567M" required>
+                        <br><br>
+                        <div class="text-left">
+                          <button type="submit" class="btn btn-primary btn-lg">Submit</button>         
                         </div>
+                        </div>
+                        </form>
                     </form>
                 </div>
             </div>
@@ -106,8 +113,7 @@
             <p>Click Submit if you agree with our<a href="https://www.youtube.com/"> Terms and Conditions</a> ?</p>
             <br>
             <div class="col-sm-4"></div>
-            <button type="submit" class="btn btn-primary btn-lg">Submit</button>         
-        </div>
+           
         <div class="container-fluid footer row">
           <div class="col-md-6 Get in touch">
               <h4>Get in touch</h4>
