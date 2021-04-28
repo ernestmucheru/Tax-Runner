@@ -14,6 +14,73 @@
 }
 
 */
+body{
+    text-align: center;
+    font-family: Arial, Helvetica;
+}
+      /* Add styles to the form container */
+.container {
+    text-align: center;
+    color:#070431ea;
+    font-size:200%;
+    
+}
+.row {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bolder;
+    color: black;
+
+}
+p {
+    color: rgb(104, 1, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:200%;
+}
+.input-group {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+}
+      
+      /* Full-width input fields */
+input[type=text] {
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+        border: none;
+        background: #f8f7f1f5;
+}
+
+      /* Set a style for the submit button */
+.btn-primary{
+        background-color: #6d50be;
+        color: rgb(0, 0, 0);
+        padding: 16px 20px;
+        border:rgb(156, 104, 6);
+        cursor: pointer;
+        width: 40%;
+        opacity: 1;
+        margin:10px
+}
+.btn-secondary {
+    background-color: #07504c;
+    color:white;
+    cursor:pointer;
+    opacity:0.9;
+}
+      
+.btn:hover {
+        opacity: 1;
+}
+.container-fluid {
+    font-family: BlinkMacSystemFont;
+    text-align:center;
+    font-weight: bolder;
+}
+
 .footer{
     padding-top:70px;
 }

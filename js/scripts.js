@@ -1,4 +1,8 @@
-function myFunction (){
-    var taxButtonValue = document.getElementById("btnTax").value;
-    document.getElementById("demo").innerHTML = taxButtonValue;
-}
+document.getElementById("myForm").onsubmit = function() {GetDat()};
+
+function GetDat() {
+    alert("Thank you we will get to you in due time!");
+  }
+
+   
+origin/initial-work-branch

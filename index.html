@@ -61,9 +61,9 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text">Full Names</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="First Name">
+                        <input type="text" class="form-control" placeholder="First Name" required>
                         <br><br><br><br>
-                        <input type="text" class="form-control" placeholder="Last Name">
+                        <input type="text" class="form-control" placeholder="Last Name" required>
                         </div>
                     </form>
                     <br><br>
@@ -73,30 +73,37 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text">Email Address</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="user@example.com">
+                        <input type="text" class="form-control" placeholder="user@example.com" readonly>
                         </div>
                     </form>
                     <br><br>
 
                     <!--Phone Number Input-->
                     <form>
+                      
                         <div class="input-group mb-3 input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Phone Number</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="0712334445">
+                        <input type="text" class="form-control" placeholder="0712334445" required>
                         </div>
                     </form>
                     <br><br>
 
                     <!--KRA pin number input-->
                     <form>
+                      <form id="myForm" action="#" onsubmit="GetDat()">
                         <div class="input-group mb-3 input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">KRA Pin</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="P051234567M">
+                        <input type="text" class="form-control" placeholder="P051234567M" required>
+                        <br><br>
+                        <div class="text-left">
+                          <button type="submit" class="btn btn-primary btn-lg">Submit</button>         
                         </div>
+                        </div>
+                        </form>
                     </form>
                 </div>
             </div>
@@ -109,12 +116,7 @@
             <p>Click Submit if you agree to our<a href="https://www.youtube.com/"> Terms and Conditions</a></p>
             <br>
             <div class="col-sm-4"></div>
-            <button onclick="myFuction()" type="submit" class="btn btn-primary btn-lg">Submit</button>   
-            <p id="demo"></p>      
-        </div>
-
-        
-
+           
         <div class="container-fluid footer row">
           <div class="col-md-6 Get in touch">
               <h4>Get in touch</h4>
