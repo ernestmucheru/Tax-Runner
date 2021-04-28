@@ -17,21 +17,23 @@
               <p>Tools for Tax Filing Agents</p>
             </div>
           </div>
-
-          <div class="container-fluid bg-3 text-center">    
-            <h3>What type of returns would yo like to file?</h3><br>
-            <div class="row">
-                <div class="col-sm-3"></div>
-              <div class="col-sm-3">
-                
-                <button type="button" class="btn btn-primary btn-lg">Nil Returns</button>
+          <form id="btnTax">
+            <div class="container-fluid bg-3 text-center">    
+              <h3>What type of returns would yo like to file?</h3><br>
+              <div class="row">
+                  <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                  
+                  <button type="button" class="btn btn-primary btn-lg" name="nil" value="nil">Nil Returns</button>
+                </div>
+                <div class="col-sm-3"> 
+                 
+                  <button type="button" class="btn btn-secondary btn-lg" name="freelancer" value="freelancer" disabled>Freelancer</button>
+                </div> 
               </div>
-              <div class="col-sm-3"> 
-               
-                <button type="button" class="btn btn-secondary btn-lg" disabled>Freelancer</button>
-              </div> 
             </div>
-          </div><br>
+          
+          <br>
           
           <div class="container-fluid bg-3 text-center">    
             <div class="row">
@@ -39,14 +41,15 @@
               
               <div class="col-sm-3"> 
                
-                <button type="button" class="btn btn-secondary btn-lg" disabled>Employee</button>
+                <button type="button" class="btn btn-secondary btn-lg" name="employee" value="employee" disabled>Employee</button>
               </div>
               <div class="col-sm-3">
              
-                <button type="button" class="btn btn-secondary btn-lg" disabled>Company</button>
+                <button type="button" class="btn btn-secondary btn-lg" name="company" value="company" disabled>Company</button>
               </div>
             </div>
-          </div><br><br>
+          </div>
+        </form><br><br>
 
           <!-- Name Input -->
         <div class="container-fluid">
@@ -103,11 +106,15 @@
         <!--Terms and conditons-->
         <div class="container-fluid">
             <div class="col-sm-4"></div>
-            <p>Click Submit if you agree with our<a href="https://www.youtube.com/"> Terms and Conditions</a> ?</p>
+            <p>Click Submit if you agree to our<a href="https://www.youtube.com/"> Terms and Conditions</a></p>
             <br>
             <div class="col-sm-4"></div>
-            <button type="submit" class="btn btn-primary btn-lg">Submit</button>         
+            <button onclick="myFuction()" type="submit" class="btn btn-primary btn-lg">Submit</button>   
+            <p id="demo"></p>      
         </div>
+
+        
+
         <div class="container-fluid footer row">
           <div class="col-md-6 Get in touch">
               <h4>Get in touch</h4>
