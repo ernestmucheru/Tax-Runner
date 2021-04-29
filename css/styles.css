@@ -14,7 +14,7 @@ body{
         padding: 0;
 }
 .jumbotron {
-    background-image: url("./images/overlay.png"), url("./images/tax2.jpg") ;
+    background-image: url("images/overlay.png"), url("images/tax2.jpg") ;
     background-position: center;
     background-size: cover;
     height: 100vh;
