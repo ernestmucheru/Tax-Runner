@@ -218,11 +218,24 @@ section{
   opacity:0.9;
 }
 
-.footer-dark .copyright p {
-  text-align:center;
+.footer-dark p {
+  
   padding-top:24px;
   opacity:0.3;
-  font-size:13px;
   margin-bottom:0;
   color: #fff;
+  font-size: 2.5rem;
+}
+.footer-dark h4{
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+.footer-dark i{
+  color: #fff;
+  font-size: 2.5rem;
+  padding-top:24px;
+  opacity:8;
+  margin-bottom:0;
 }

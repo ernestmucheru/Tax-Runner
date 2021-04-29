@@ -27,7 +27,7 @@
                   <div class="row">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                      <a href="#name"><button type="button" class="btn btn-primary btn-lg" name="nil" value="nil">Nil Returns</button></a>
+                      <a href="#name"><button type="button" class="btn btn-primary btn-lg" name="Type of Tax Filing" value="nil">Nil Returns</button></a>
                     </div>
                     <div class="col-sm-3"> 
                       <button type="button" class="btn btn-secondary btn-lg" name="freelancer" value="freelancer" data-toggle="tooltip" data-placement="right" title="Coming soon"disabled>Freelancer</button>
@@ -57,7 +57,7 @@
          <section>
         <div class="nil-returns-header">
           <div class="max-width">
-            <h2 class="title">Nil Returns</h2>
+            <h2 class="title" id="name" >Nil Returns</h2>
           </div>
          
         </div>
@@ -68,55 +68,56 @@
             <div class="row">
                 <div class="col-sm-4"></div>
                 <div class="col-sm-4">
-                    <form>
+                    <form action="https://getform.io/f/636adab7-45fd-4239-aaef-62045a3fe1f2" method="POST">
                         <div class="input-group mb-3 input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Full Names</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Surname" size="50" required>
+                        <input type="text" class="form-control" placeholder="Surname" size="50" name="Surname" required>
                         <br><br><br><br>
-                        <input type="text" class="form-control" placeholder="First Name" required id="name" size="50" required>
+                        <input type="text" class="form-control" placeholder="First Name" required  size="50" name="First name" required>
                         <br><br><br><br>
-                        <input type="text" class="form-control" placeholder="Middle name" size="50" required>
+                        <input type="text" class="form-control" placeholder="Middle name" size="50" name="Middle name" required>
                         </div>
-                    </form>
+                    
                     <br><br>
                     <!--Email Input-->
-                    <form>
+                   
                         <div class="input-group mb-3 input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Email Address</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="user@example.com" size="50" readonly>
+                        <input type="text" class="form-control" placeholder="user@example.com" size="50" name="Email Address" required>
                         </div>
-                    </form>
+                    
                     <br><br>
 
                     <!--Phone Number Input-->
-                    <form>
+                    
                       
                         <div class="input-group mb-3 input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Phone Number</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="0712334445" size="50" maxlength="10" required>
+                        <input type="text" class="form-control" placeholder="0712334445" size="50" maxlength="10" name="Phone Number" required>
                         </div>
-                    </form>
+                    
                     <br><br>
 
                     <!--KRA pin number input-->
-                      <form id="myForm" action="" onsubmit="GetDat()">
+                      
                         <div class="input-group mb-3 input-group-lg">
                         <div class="input-group-prepend">
                             <span class="input-group-text">KRA Pin</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="P051234567M" size="50" maxlength="10" required>
+                        <input type="text" class="form-control" placeholder="P051234567M" size="50" maxlength="10" name="KRA Pin Number" required>
                         <br><br><br><br><br>
                         </div>
-                        </form>
+                        
                         <div class="text-left">
                           <button type="submit" class="btn btn-primary btn-lg">Submit</button>         
                         </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -135,26 +136,19 @@
                 <div class="container-fluid footer row">
                   <div class="col-md-3"></div>
                   <div class="col-md-6 Get in touch" >
-                      <h4>Get in touch</h4>
-                      <p><i class="fa fa-map-marker fa-2x">&nbsp;Lavington mall</i></p>
-                      <p><i class="fa fa-phone">&nbsp;0712334555</i></p>
-                      <p><i class="fa fa-email">&nbsp;info@TheTaxRunner.com</i></p>
+                      <h4><strong>Get in touch</strong></h4>
+                      <i class="fa fa-map-marker fa-2x">&nbsp;Lavington mall</i>
+                      <br>
+                      <i class="fa fa-phone">&nbsp;0712334555</i>
+                      <br>
+                      <i class="fa fa-email">&nbsp;info@TheTaxRunner.com</i>
+                      <br>
+                      <i class="fa fa-faceook-square">&nbsp;</i>
+                      <i class="fa fa-instagram">&nbsp;</i>
+                      <i class="fa fa-youtube ">&nbsp;</i>
+                      <i class="fa fa-twitter ">&nbsp;</i>
                   </div>
-
-                  <div class="container-fluid footer row">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6 Socials" >
-                      <h4>Socials</h4>
-                      
-                      <p><i class="fa fa-facebook-square">&nbsp;</i>
-                        <i class="fa fa-instagram">&nbsp;</i>
-                        <i class="fa fa-youtube ">&nbsp;</i>
-                        <i class="fa fa-twitter ">&nbsp;</i></p>
-                  </div>
-                  </div>
-                    
-                      
-                  <p class="copyright">Company Name © 2018</p>
+                  <br><br><br>
               </div>
           </footer>
       </div>
